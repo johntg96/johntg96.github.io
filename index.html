@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>johntg | portfolio</title>
+	<meta charset="utf-8">
+	<link rel='stylesheet' type='text/css' href='css/style.css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<nav>
+		<ul id="navbar-list" class="navbar-regular">
+			<li id="navbar-brand"><a href="#home" onclick="smoothScroll('home');return false">johntg | <span style="color:#00994b;">portfolio</span></a></li>
+			<li class="navlist-item"><a href="#home" class="nav-element active" onclick="smoothScroll('home');return false">Home</a></li>
+			<li class="navlist-item"><a href="#work" class="nav-element" onclick="smoothScroll('work');return false">Work</a></li>
+			<li class="navlist-item"><a href="#about" class="nav-element" onclick="smoothScroll('about');return false">About</a></li>
+			<li class="navlist-item"><a href="#contact" class="nav-element" onclick="smoothScroll('contact');return false">Contact</a></li>
+			<li class="collapse-icon"><a href="javascript:void(0);" onclick="navCollapse()">&#9776;</a></li>
+		</ul>
+	</nav>
+	<div id="home" class="spotlight">
+		<h1>Hi! My name is <span class="lobster2">John</span>&nbsp;, and I create websites.</h1>
+		<h3>Front-End Web Developer<br/>-<br/><span style="font-size:.7em">HTML | CSS | JavaScript</span></h3>
+	</div>
+	<div id="work">
+		<div class="row">
+			<div class="col-8 col-m-8 boxes">
+				<h1>Have a look at some of my work..</h1>
+				<a href="http://www.janickes.com"><div class="feature-box"><h3>Janickes Bakery</h3></div></a>
+				<div class="feature-box"><h3>More work on the way!</h3></div>
+				<div class="feature-box"><h3>More work on the way!</h3></div>
+				<div class="feature-box"><h3>More work on the way!</h3></div>
+			</div>
+			<div class="col-4 col-m-4">
+				<h2>..and find me here</h2>
+				<ul class="feature-links">
+					<li><a href="http://www.freecodecamp.com/johntg96">FreeCodeCamp</a></li>
+					<li><a href="http://www.github.com/johntg96">GitHub</a></li>
+					<li><a href="http://www.linkedin.com/johntg96">LinkedIn</a></li>
+					<li><a href="http://www.twitter.com/jt_garrison">Twitter</a></li>
+					<li><a href="http://www.upwork.com/johntg96">UpWork</a></li>
+				</ul>
+			</div>
+			<div class="please-note"><h4><em>Please note -> my showcase looks bland, I know. I am a budding web developer and have been spending my time going through books and tutorials, while also building websites. I am working hard to make impressive and interactive web applications w/ JavaScript (which is what I'd rather spend my time on) instead of static websites focused on html + css (which I have a very strong handle on now). I will have much more to show here soon!</em></h4></div>
+		</div>
+	</div>
+	<div id="about">
+		<h1>A little about myself</h1>
+		<img class="about-img" src="images/my-pic.jpg">
+		<p>My name is John and I am 19 years old, located in the rural (and beautiful) area of Northern Minnnesota. I started coding at 15 after sumbling across YouTube tutorials, and its been a spriral of never knowing enough ever since :P Specifically, I focus on web development because it allows me to be creative, mixing art and design with computer programming. Since then I have read books, watched countless video tutorials and lessons, and went through online coding resources like Codecademy and freecodecamp.com, and continue to learn new concepts, syntax, and etiquette to become better at what I love doing!</p>
+	</div>
+	<div id="contact">
+		<h1>Get in touch</h1>
+		<h4>Like what I do? Send me a message with my email below and I will be sure to get to you shortly.<br/><br/>
+		Please include your name, contact info, and project details so I can do my best to organize my inbox :)</h4>
+		<h6 id="myaddr"></h6>
+	</div>
+	<div id="footer">
+		<div class="row">
+			<div class="col-6 col-m-6">
+				<ul>
+					<li><a href="#home" onclick="smoothScroll('home');return false">Back to top</a></li>
+					<li><a href="#home" onclick="smoothScroll('home');return false">Home</a></li>
+					<li><a href="#work" onclick="smoothScroll('work');return false">Work</a></li>
+					<li><a href="#about" onclick="smoothScroll('about');return false">About Me</a></li>
+					<li><a href="#contact" onclick="smoothScroll('contact');return false">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-6 col-m-6">
+				<ul>
+					<li><a href="http://www.freecodecamp.com/johntg96">FreeCodeCamp</a></li>
+					<li><a href="http://www.github.com/johntg96">GitHub</a></li>
+					<li><a href="http://www.linkedin.com/johntg96">LinkedIn</a></li>
+					<li><a href="http://www.twitter.com/jt_garrison">Twitter</a></li>
+					<li><a href="http://www.upwork.com/johntg96">UpWork</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- JQuery 3.1.0 -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- Main page script -->
+	<script src="js/script.js"></script>
+</body>
+</html>
